@@ -118,3 +118,70 @@ main {
     border-radius: 12px;
   }
 }
+
+.card:hover {
+  border: 2px solid var(--gray-300);
+  transition: 0.5s;
+}
+
+.card-servico {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-500);
+  padding: 12px;
+  gap: 8px;
+  border-radius: 12px;
+  border: 2px  solid var(--gray-400);
+  img {
+    width: 48px;
+  }
+
+  h2 {
+      color: var(--gray-100);
+      font-size: var(--subtitle-size);
+    }
+
+    p {
+      color: var(--gray-300);
+    }
+
+}
+
+.card-link {
+  background-color: var(--gray-400);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  transition: 0.5s;
+}
+
+.card-link > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-link img {
+  width: 28px;
+}
+
+.card-link a {
+  color: var(--gray-100);
+  font-size: var(--text-md-size);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  border: 2px solid var(--gray-300);
+}
+
+.card-link:hover > img,
+.card-link > img:hover {
+  filter: invert(49%) sepia(80%) saturate(2727%) hue-rotate(174deg) brightness(92%) contrast(93%);
+}
+
