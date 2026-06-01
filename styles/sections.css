@@ -1,0 +1,23 @@
+#projetos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+
+  header {
+    padding-block: 30px;
+    
+    h2 {
+      font-size: var(--subtitle-size);
+      text-align: center;
+      color: var(--color-red);
+    }
+
+    h1 {
+      color: var(--gray-100);
+      font-size: var(--title-md-size);
+      text-align: center;
+    }
+  }
+}
