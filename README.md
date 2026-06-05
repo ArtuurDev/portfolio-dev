@@ -1,6 +1,6 @@
 # 💼 Portfólio Dev
 
-Projeto desenvolvido como desafio da formação **Full-Stack da Rocketseat**, com o objetivo de criar uma landing page de portfólio moderna, responsiva e visualmente atraente para apresentar projetos, habilidades, serviços e formas de contato.
+Projeto desenvolvido como desafio da formação **Full-Stack da Rocketseat**, com o objetivo de criar uma landing page de portfólio moderna e visualmente atraente para apresentar projetos, habilidades, serviços e formas de contato.
 
 ## ✨ Sobre o Projeto
 
